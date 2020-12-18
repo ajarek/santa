@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url('choinka.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    
+    
+}
+
+.santa {
+    position: absolute;
+    bottom: 2%;
+    left: 30%;
+    height: 30vh;
+}
+
+.reni {
+    position: absolute;
+    bottom: 1%;
+    left: 55%;
+    height: 40vh;
+}
+
+.merry {
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    height: 40vh;
+}
+.logo{
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+}
+
+
+@media (max-width: 1300px){
+.santa {
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+    height: 25vh;
+}
+
+.reni {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    height: 35vh;
+}
+
+.merry {
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    height: 30vh;
+}
+
+
+}
+
+@media (max-width: 948px){
+    .santa {
+        position: absolute;
+        bottom: 2%;
+        left: 18%;
+        height: 20vh;
+    }
+    
+    .reni {
+        position: absolute;
+        bottom: 1%;
+        left: 40%;
+        height: 30vh;
+    }
+    
+    .merry {
+        position: absolute;
+        top: 4%;
+        left: 40%;
+        height: 25vh;
+    }
+    
+    
+    }
+@media (max-width: 720px){
+    .santa {
+        position: absolute;
+        bottom: 2%;
+        left: 15%;
+        height: 15vh;
+    }
+    
+    .reni {
+        position: absolute;
+        bottom: 1%;
+        left: 45%;
+        height: 25vh;
+    }
+    
+    .merry {
+        position: absolute;
+        top: 4%;
+        left: 25%;
+        height: 20vh;
+    }
+    
+
+    }
+    @media (max-width: 605px){
+        .santa {
+            position: absolute;
+            bottom: 2%;
+            left: 15%;
+            height: 15vh;
+        }
+        
+        .reni {
+            position: absolute;
+            bottom: 1%;
+            left: 40%;
+            height: 20vh;
+        }
+        
+        .merry {
+            position: absolute;
+            top: 10%;
+            left: 35%;
+            height: 20vh;
+        }
+        
+    
+        }
+        @media (max-width: 445px){
+            .santa {
+                position: absolute;
+                bottom: 1%;
+                left: 1%;
+                height: 15vh;
+            }
+            
+            .reni {
+                position: absolute;
+                bottom: 0.5%;
+                left: 30%;
+                height: 20vh;
+            }
+            
+            .merry {
+                position: absolute;
+                top: 10%;
+                left: 35%;
+                height: 20vh;
+            }
+            
+        
+            }
+            @media (max-width: 390px){
+                .santa {
+                    position: absolute;
+                    bottom: 0%;
+                    left: 0%;
+                    height: 12vh;
+                }
+                
+                .reni {
+                    position: absolute;
+                    bottom: 0%;
+                    left: 30%;
+                    height: 17vh;
+                }
+                
+                .merry {
+                    position: absolute;
+                    top: 10%;
+                    left: 35%;
+                    height: 20vh;
+                }
+                
+            
+                }
