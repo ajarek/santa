@@ -168,14 +168,14 @@ section {
                 .santa {
                     position: absolute;
                     bottom: 0%;
-                    left: 0%;
+                    left: 3%;
                     height: 12vh;
                 }
                 
                 .reni {
                     position: absolute;
                     bottom: 0%;
-                    left: 30%;
+                    left: 32%;
                     height: 17vh;
                 }
                 
@@ -185,6 +185,9 @@ section {
                     left: 35%;
                     height: 20vh;
                 }
-                
+                .logo{
+    position: absolute;
+    left: 1%;
+    bottom: 2%;
             
                 }
